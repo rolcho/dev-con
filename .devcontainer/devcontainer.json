@@ -7,10 +7,10 @@
       "version": "lts",
       "nvmVersion": "latest"
     },
-    "ghcr.io/devcontainers-contrib/features/ionic-cli:2": {
+    "ghcr.io/devcontainers-contrib/features/angular-cli:2": {
       "version": "latest"
     },
-    "ghcr.io/devcontainers-community/npm-features/typescript:1": {
+    "ghcr.io/devcontainers-contrib/features/ionic-cli:2": {
       "version": "latest"
     }
   },
@@ -20,7 +20,8 @@
         "ionic.ionic",
         "angular.ng-template",
         "esbenp.prettier-vscode",
-        "yoavbls.pretty-ts-errors",
-      ]}
+        "yoavbls.pretty-ts-errors"
+      ]
+    }
   }
 }
