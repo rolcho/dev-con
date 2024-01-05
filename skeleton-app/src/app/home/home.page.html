@@ -5,10 +5,14 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  @for (item of myArray; track $index) {
+  <ion-item>
+    <ion-label> Toggle even/odd </ion-label>
+    <ion-toggle (ionChange)="toggleEvenOdd()"></ion-toggle>
+  </ion-item>
+  @for (item of filteredArray; track $index) {
   <ion-card>
     <ion-card-header>
-      <ion-card-title> {{item}} {{$index}} </ion-card-title>
+      <ion-card-title> {{item}} </ion-card-title>
     </ion-card-header>
 
     <ion-card-content>
