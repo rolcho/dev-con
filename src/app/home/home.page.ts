@@ -36,7 +36,7 @@ import {
 })
 export class HomePage implements OnInit {
   myArray: string[] = [];
-  evenOdd: boolean = true;
+  isEven: boolean = true;
   filteredArray: string[] = [];
 
   constructor() {}
@@ -49,13 +49,16 @@ export class HomePage implements OnInit {
   }
 
   toggleEvenOdd() {
-    this.evenOdd = !this.evenOdd;
+    this.isEven = !this.isEven;
     this.updateArray();
   }
 
+  getAriaLabel(): string {
+    return this.isEven ? 'Even' : 'Odd';
+  }
   updateArray() {
     this.filteredArray = this.myArray.filter((_, i) =>
-      this.evenOdd ? i % 2 === 0 : i % 2 === 1
+      this.isEven ? i % 2 === 0 : i % 2 === 1
     );
   }
 }

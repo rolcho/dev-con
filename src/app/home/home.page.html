@@ -6,8 +6,9 @@
 
 <ion-content [fullscreen]="true">
   <ion-item>
-    <ion-label> Toggle even/odd </ion-label>
-    <ion-toggle (ionChange)="toggleEvenOdd()"></ion-toggle>
+    <ion-toggle aria-label="Even" (ionChange)="toggleEvenOdd()"
+      >Toggle even/odd</ion-toggle
+    >
   </ion-item>
   @for (item of filteredArray; track $index) {
   <ion-card>

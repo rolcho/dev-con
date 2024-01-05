@@ -12,12 +12,9 @@
     },
     "ghcr.io/devcontainers-contrib/features/ionic-cli:2": {
       "version": "latest"
-    },
-    "ghcr.io/devcontainers-contrib/features/nestjs-cli:2": {
-      "version": "latest"
     }
   },
-  "postStartCommand": "git config --global --add safe.directory /workspaces/dev-con && npm install --prefix /workspaces/dev-con/skeleton-app",
+  "postStartCommand": "npm install --prefix /workspaces/dev-con/skeleton-app",
   "customizations": {
     "vscode": {
       "extensions": [
