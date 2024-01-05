@@ -10,8 +10,23 @@
     "ghcr.io/devcontainers-contrib/features/ionic-cli:2": {
       "version": "latest"
     },
+    "ghcr.io/devcontainers-contrib/features/ionic-capacitor:2": {
+      "version": "latest"
+    },
+    "ghcr.io/ghcr.io/devcontainers-contrib/features/angular-cli": {
+      "version": "latest"
+    },
     "ghcr.io/devcontainers-community/npm-features/typescript:1": {
       "version": "latest"
     }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ionic.ionic",
+        "angular.ng-template",
+        "esbenp.prettier-vscode",
+        "yoavbls.pretty-ts-errors",
+      ]}
   }
 }
