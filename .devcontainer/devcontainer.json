@@ -21,7 +21,8 @@
         "ionic.ionic",
         "angular.ng-template",
         "esbenp.prettier-vscode",
-        "yoavbls.pretty-ts-errors"
+        "yoavbls.pretty-ts-errors",
+        "github.copilot"
       ]
     }
   }
