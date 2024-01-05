@@ -14,7 +14,7 @@
       "version": "latest"
     }
   },
-  "postStartCommand": "git config --global --add safe.directory /workspaces/dev-con && cd skeleton && npm i",
+  "postStartCommand": "git config --global --add safe.directory /workspaces/dev-con && npm install --prefix /workspaces/dev-con/skeleton",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -25,5 +25,4 @@
       ]
     }
   },
-  "runArgs": ["--sysctl", "fs.inotify.max_user_watches=524288"]
 }
