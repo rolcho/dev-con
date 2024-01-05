@@ -14,7 +14,7 @@
       "version": "latest"
     }
   },
-  "postStartCommand": "npm install --prefix /workspaces/dev-con/skeleton-app",
+  "postStartCommand": "npm i",
   "customizations": {
     "vscode": {
       "extensions": [
