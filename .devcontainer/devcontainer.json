@@ -17,7 +17,7 @@
       "version": "latest"
     }
   },
-  "postStartCommand": "git config --global --add safe.directory /workspaces/dev-con && npm install --prefix /workspaces/dev-con/skeleton",
+  "postStartCommand": "git config --global --add safe.directory /workspaces/dev-con && npm install --prefix /workspaces/dev-con/skeleton-app",
   "customizations": {
     "vscode": {
       "extensions": [
