@@ -14,6 +14,7 @@
       "version": "latest"
     }
   },
+  "postStartCommand": "git config --global --add safe.directory /workspaces/dev-con && cd skeleton && npm i",
   "customizations": {
     "vscode": {
       "extensions": [
