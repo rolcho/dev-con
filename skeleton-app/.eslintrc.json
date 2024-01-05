@@ -5,7 +5,7 @@
     {
       "files": ["*.ts"],
       "parserOptions": {
-        "project": ["/workspaces/dev-con/skeleton/tsconfig.json"],
+        "project": ["./skeleton-app/tsconfig.json"],
         "createDefaultProgram": true
       },
       "extends": [
